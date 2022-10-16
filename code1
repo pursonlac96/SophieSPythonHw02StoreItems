@@ -1,0 +1,27 @@
+# Hard-Coded variable representing the store
+store = "Welcome to the Store"
+      # print the value of the variable
+print(store)
+        # two variables which represent the items to be purchased and input from the user
+item1 = input("Enter item 1's name >> ")
+item2 = input("Enter item 2's name >> ")
+        # print the items
+print("Items are: {0}, {1}".format(item1, item2))
+      # two variables for the cost of each item to be purchased
+cost1 = float(input("Enter cost of item 1: 25 "))
+cost2 = float(input("Enter cost of item 2: 20 "))
+
+# print the cost with the items
+print("Item 1 - {} with Cost = {}\nItem 2 - {} with Cost = {}".format(item1, cost1, item2, cost2))
+
+# two variables for computing the subtotal and taxamount for the user
+          # tax amount is 10% of the cost of the items
+subtotal = cost1 + cost2 
+taxAmt = subtotal*0.1
+# output the subtotal and tax amount
+print("SubTotal - {}\nTax Amount - {}".format(subtotal, taxAmt))
+
+
+
+
+
